@@ -86,7 +86,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func pipTimeAction(_ sender: Any) {
+        guard let player = playerResource() else {
+            return
+        }
         
+        let playerVC = MWFullTimerVC()
+        playerVC.modalPresentationStyle = .fullScreen
+        present(playerVC, animated: true) {
+        }
     }
     
     @IBAction func pipTextAction(_ sender: Any) {
