@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyPiPApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRm-JE-05z">
+                                <rect key="frame" x="107" y="144" width="200" height="52"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="KVW-ta-9gN"/>
+                                    <constraint firstAttribute="height" constant="52" id="Orr-bu-HbC"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemMintColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="系统播放器">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="systemPlayerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z9U-sy-3AX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCI-Yj-x0V">
+                                <rect key="frame" x="107" y="270" width="200" height="52"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="ezh-iN-tub"/>
+                                    <constraint firstAttribute="width" constant="200" id="pPw-C8-Al5"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemMintColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="自定义播放器">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="customPlayerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sf7-oC-xKZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7N-qk-rJ5">
+                                <rect key="frame" x="107" y="399" width="200" height="52"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="cjz-is-jQU"/>
+                                    <constraint firstAttribute="height" constant="52" id="wUJ-WP-Zn5"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemMintColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="画中画计时">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="pipTimeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9uG-2V-Di6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYg-QB-XQ6">
+                                <rect key="frame" x="107" y="518" width="200" height="52"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="ZUH-PG-49e"/>
+                                    <constraint firstAttribute="width" constant="200" id="rxc-bo-YTV"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemMintColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="画中画播放文字">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="pipTextAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rMG-yX-8sx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uCI-Yj-x0V" firstAttribute="top" secondItem="NRm-JE-05z" secondAttribute="bottom" constant="74" id="84b-it-Mu8"/>
+                            <constraint firstItem="NRm-JE-05z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KQH-B8-vd6"/>
+                            <constraint firstItem="NRm-JE-05z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="RUY-BB-xYm"/>
+                            <constraint firstItem="uCI-Yj-x0V" firstAttribute="centerX" secondItem="NRm-JE-05z" secondAttribute="centerX" id="WuJ-mO-RaE"/>
+                            <constraint firstItem="A7N-qk-rJ5" firstAttribute="centerX" secondItem="uCI-Yj-x0V" secondAttribute="centerX" id="flm-Xt-FOe"/>
+                            <constraint firstItem="XYg-QB-XQ6" firstAttribute="top" secondItem="A7N-qk-rJ5" secondAttribute="bottom" constant="67" id="hzF-Lc-9mI"/>
+                            <constraint firstItem="A7N-qk-rJ5" firstAttribute="top" secondItem="uCI-Yj-x0V" secondAttribute="bottom" constant="77" id="vXp-mp-f6U"/>
+                            <constraint firstItem="XYg-QB-XQ6" firstAttribute="centerX" secondItem="A7N-qk-rJ5" secondAttribute="centerX" id="vru-7d-T9h"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="94"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
