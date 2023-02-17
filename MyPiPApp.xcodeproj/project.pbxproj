@@ -18,6 +18,8 @@
 		48441B7028AA290C005D9FCA /* MWCustomPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48441B6F28AA290C005D9FCA /* MWCustomPlayerVC.swift */; };
 		48441B7428AA46B3005D9FCA /* CustomPlayerCircularButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48441B7328AA46B3005D9FCA /* CustomPlayerCircularButtonView.swift */; };
 		48441B7728AA6BA0005D9FCA /* MWPipWindowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48441B7628AA6BA0005D9FCA /* MWPipWindowVC.swift */; };
+		484FBB2C28B0DCAA0043D190 /* MWFullTimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484FBB2B28B0DCAA0043D190 /* MWFullTimerVC.swift */; };
+		484FBB2E28B0EF570043D190 /* MWBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484FBB2D28B0EF570043D190 /* MWBaseVC.swift */; };
 		485841BE28ABB6B100A0A78B /* MWTextPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485841BD28ABB6B100A0A78B /* MWTextPlayView.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		48441B6F28AA290C005D9FCA /* MWCustomPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWCustomPlayerVC.swift; sourceTree = "<group>"; };
 		48441B7328AA46B3005D9FCA /* CustomPlayerCircularButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPlayerCircularButtonView.swift; sourceTree = "<group>"; };
 		48441B7628AA6BA0005D9FCA /* MWPipWindowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWPipWindowVC.swift; sourceTree = "<group>"; };
+		484FBB2B28B0DCAA0043D190 /* MWFullTimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWFullTimerVC.swift; sourceTree = "<group>"; };
+		484FBB2D28B0EF570043D190 /* MWBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWBaseVC.swift; sourceTree = "<group>"; };
 		485841BD28ABB6B100A0A78B /* MWTextPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWTextPlayView.swift; sourceTree = "<group>"; };
 		48EB7EBD582EFA8633E5242C /* Pods-MyPiPApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPiPApp.debug.xcconfig"; path = "Target Support Files/Pods-MyPiPApp/Pods-MyPiPApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B59F9B0E0C2BB2E5D2AEA39F /* Pods-MyPiPApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPiPApp.release.xcconfig"; path = "Target Support Files/Pods-MyPiPApp/Pods-MyPiPApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,8 +80,10 @@
 				4838FD0828A89C2B000E329D /* suancaidegang.mp4 */,
 				4838FCF428A7323F000E329D /* AppDelegate.swift */,
 				4838FCF628A7323F000E329D /* SceneDelegate.swift */,
+				484FBB2D28B0EF570043D190 /* MWBaseVC.swift */,
 				48441B7328AA46B3005D9FCA /* CustomPlayerCircularButtonView.swift */,
 				4838FCF828A7323F000E329D /* ViewController.swift */,
+				484FBB2A28B0DC720043D190 /* 计时器 */,
 				48441B7828AA6BA4005D9FCA /* 每日英语听力 */,
 				48441B7528AA6B67005D9FCA /* 自定义播放器 */,
 				4838FCFA28A7323F000E329D /* Main.storyboard */,
@@ -103,6 +109,14 @@
 				485841BD28ABB6B100A0A78B /* MWTextPlayView.swift */,
 			);
 			path = "每日英语听力";
+			sourceTree = "<group>";
+		};
+		484FBB2A28B0DC720043D190 /* 计时器 */ = {
+			isa = PBXGroup;
+			children = (
+				484FBB2B28B0DCAA0043D190 /* MWFullTimerVC.swift */,
+			);
+			path = "计时器";
 			sourceTree = "<group>";
 		};
 		A396DA4BFB6EC7CFDAA8E63C /* Pods */ = {
@@ -242,9 +256,11 @@
 				485841BE28ABB6B100A0A78B /* MWTextPlayView.swift in Sources */,
 				4838FCF528A7323F000E329D /* AppDelegate.swift in Sources */,
 				48441B7028AA290C005D9FCA /* MWCustomPlayerVC.swift in Sources */,
+				484FBB2E28B0EF570043D190 /* MWBaseVC.swift in Sources */,
 				4838FCF728A7323F000E329D /* SceneDelegate.swift in Sources */,
 				48441B7728AA6BA0005D9FCA /* MWPipWindowVC.swift in Sources */,
 				48441B7428AA46B3005D9FCA /* CustomPlayerCircularButtonView.swift in Sources */,
+				484FBB2C28B0DCAA0043D190 /* MWFullTimerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

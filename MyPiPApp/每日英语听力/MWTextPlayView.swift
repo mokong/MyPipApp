@@ -2,7 +2,7 @@
 //  MWTextPlayView.swift
 //  MyPiPApp
 //
-//  Created by Horizon on 16/08/2022.
+//  Created by MorganWang on 16/08/2022.
 //
 
 import UIKit

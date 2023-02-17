@@ -1,0 +1,28 @@
+{
+  "name": "UIPiPView",
+  "version": "0.1.0",
+  "summary": "Picture-in-picture (PiP) capable UIView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/uakihir0/UIPiPView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Akihiro Urushiara": "a.urusihara@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/uakihir0/UIPiPView.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/uakihir0",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "UIPiPView/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "AVKit",
+    "AVFoundation"
+  ]
+}

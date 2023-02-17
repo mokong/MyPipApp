@@ -2,7 +2,7 @@
 //  MWPipWindowVC.swift
 //  MyPiPApp
 //
-//  Created by Horizon on 15/08/2022.
+//  Created by MorganWang on 15/08/2022.
 //
 
 import UIKit
@@ -119,7 +119,7 @@ class MWPipWindowVC: UIViewController {
         
         enterPipBtn?.snp.makeConstraints { make in
             make.right.equalToSuperview().inset(10.0)
-            make.centerY.equalTo(self.view.snp.centerY)
+            make.centerY.equalTo(self.view.snp.centerY).offset(100.0)
             make.width.height.equalTo(50.0)
         }
     }
